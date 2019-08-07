@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}  
+    
+}
+#h1{
+    width: 300px;
+}
+#3_5{float: right;
+        }
+
+.recuadros {
+    background-color: green;
+    padding: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px  red;
+    width: 255px;
+}
+
+
+
+#rec5{ 
+    background-color: green;
+    padding: 17px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px  red;
+    width: 255px;
+}  
+
+
+}
+#texto{
+    text-align: right;
+    width: 180px;
+}
+#bottom{    
+background-color: red;
+border-radius: 7px;
+height: 120px; 
+text-align: left;    
+}
+
+#registro{position: absolute;
+    top:200px;
+    left: 340px;
+        text-align:left;
+    background-color: #fff;
+    padding: 5px
+    border: 2px solid darkgray;
+    width: 670px;
+    height: 310px;
+}
+#table{
+
+   width: 700px;
+}
+#tabla_abajo{
+    width:700px;
+    height:330px;
+}
+.derecha{
+    float:right
+}
+.izquierda{
+    float:left
+}

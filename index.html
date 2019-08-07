@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head >
+  <title>Conversor de monedas</title>
+  <link href="style.css"
+  rel="stylesheet">
+</head>
+<body onload="traer()">
+<div id="registro"> 
+ <span style="position: absolute; left: 3px;top: 1px;"><a><img id="jpeg"  src="dinero.gif" height="305px" width="665px" class="derecha" ></a></span>
+    </div>
+    <hr />
+
+  <div id="encabezado" class="section">
+       <span style="text-align:center;
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+  width: 665px; position: absolute; left: 320px;"><form><input type="image" id="img"  src="tenor.gif" height="70px" width="70px" class="derecha" ><input type="image" id="img"  src="tenor.gif" height="70px" width="70px" class="izquierda" > </form>
+      <h1 id="h1"><u>Conversor de divisas</u></h1>
+<h4><marquee  direction="down" scrollamount="1" scrolldelay="12" >Monedas soportadas: pesos argentinos, euros, bolivares venezolanos y dolares americanos</marquee></h4>
+</span>
+      <embed src="pokemon.mp3" autostarty="true" loop="true" volumen="80" width="100" height="100">
+      <form id="dol"></form>
+      <from id="eur"></from>
+      <form id="eurdolar"></form>
+      <form id="vefdolar"></form>
+      <img src="vJz1Cuj.gif">
+</div>
+<div id="rec2" class="recuadros">
+<form>
+  <input id="valorx" type="number" placeholder="Pesos" oninput="Euro1(this.value)" onchange="Euro1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output1">... euro(s)</h3>
+    </form>
+
+</div>
+<div id="rec2_5" class="recuadros">
+<form>
+  <input id="valora" type="number" placeholder="Pesos" oninput="Dolar1(this.value)" onchange="Dolar1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output3">... dolar(es)</h3>
+    </form>
+
+</div>
+<div id="rec3" class="recuadros">
+<form>
+    <input id="valor3" type="number" placeholder="Dolar" oninput="Euro2(this.value)" onchange="Euro2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output2"> euro(s)</h3>
+    </form>
+</div>
+        <div id="rec3_5" class="recuadros">
+<form>
+    <input id="valor3_5" type="number" placeholder="Euro" oninput="Dolar2(this.value)" onchange="Dolar2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output3_5"> dolar(es)</h3>
+    </form>
+    </div>
+    
+<div id="rec4" class="recuadros">
+<form>
+    <input id="valor4" type="number" placeholder="Euro" oninput="Peso1(this.value)" onchange="Peso1(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output4"> peso(s)</h3>
+    </form>
+    </div>
+    
+        <div id="rec5">
+<form>
+    <input id="valor5" type="number" placeholder="Dolar" oninput="Peso2(this.value)" onchange="Peso2(this.value)">
+             
+
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output5"> peso(s)</h3>
+    </form>        
+    </div>
+    
+    
+    <div id="rec6" class="recuadros">
+<form>
+  <input id="valor6" type="number" placeholder="Euro" oninput="Vef3(this.value)" onchange="Vef3(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output6"> bolivar(es)</h3>
+    </form>
+
+</div>
+    <div id="rec7" class="recuadros">
+<form>
+  <input id="valor7" type="number" placeholder="Dolar" oninput="Vef2(this.value)" onchange="Vef2(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output7"> bolivar(es)</h3>
+    </form>
+
+</div>
+    
+    <div id="rec8" class="recuadros">
+<form>
+  <input id="valor8" type="number" placeholder="Bolivar" oninput="Peso3(this.value)" onchange="Peso3(this.value)">
+   
+   
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output8"> peso(s)</h3>
+    </form>
+
+</div>
+        <div id="rec9" class="recuadros" style="height: 124px;">
+<form>
+  <input id="valor9" style="width: 125px"type="number" placeholder="Bolivar" oninput="Dolar3(this.value)" onchange="Dolar3(this.value)">
+    <input id="valor9_5" style="width: 125px; position: relative; left: 135px; top: -22px"  type="number" placeholder="Bolivar" oninput="Euro3(this.value)" onchange="Euro3(this.value)">
+   
+    </form>
+            
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output9_5"> .dolar(es)</h3>
+    </form> 
+            
+</div>
+        <div id="rec10" class="recuadros">
+<form>
+  <input id="valor10" type="number" placeholder="Peso" oninput="Vef1(this.value)" onchange="Vef1(this.value)">
+   
+   <div >
+            <h4 class="texto_5">equivale a</h4>
+    <form><h3 id="output9" class="texto_5">euro(s)</h3>
+    </form>
+    </div>
+    
+    </form>
+      <h4 id="texto">equivale a</h4>
+    <form><h3 id="output10"> bolivar(es)</h3>
+    </form>
+
+</div>
+        
+    
+<br />
+    
+        
+<div id="bottom" style="clear: right; ">
+    <p class="final">Alumno: Facundo Lautaro Licciardi Salguero</p>
+    <p class="final">Profesor:Santiago Trini</p>
+    <p class="final">Curso 4º 2ª</p>
+    <p class="final"><a href="">Link al repositorio</a></p>
+    </div>
+
+<img src="200.gif"> <img src="monedita.gif">
+
+
+<script src="javascript.js" language="javascript" type="text/javascript"></script>
+
+</body>
